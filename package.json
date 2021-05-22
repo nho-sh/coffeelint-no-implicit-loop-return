@@ -1,0 +1,21 @@
+{
+  "name": "coffeelint-no-implicit-loop-return",
+  "version": "1.0.0",
+  "description": "Coffeelint rule that detects functions that implicitly return the result of a for-loop. Coffeescript will 'gather up' the results of each iteration loop in an array, and return that array as the function result. This rule prevents such implicit returns.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx coffee test/index.coffee"
+  },
+  "keywords": [
+    "coffeelintrule",
+    "coffeelint",
+    "coffeescript",
+    "lint"
+  ],
+  "author": "nho.sh",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "coffeelint": "^2.1.0"
+  }
+}
