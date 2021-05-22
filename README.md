@@ -1,6 +1,6 @@
 # CoffeeLint Rule - No Implicit Loop Return
 
-`npm i nho-sh/coffeelint-no-implicit-loop-return --save-dev`
+`npm i nho-sh/coffeelint-no-implicit-loop-return --save-dev` (GitHub packaging)
 
 A CoffeeLint rule that detects functions that end with a loop.
 Since coffeescript turns everything into an expression that returns a value,
